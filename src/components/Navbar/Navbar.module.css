@@ -13,13 +13,14 @@
 }
 
 .left svg {
-  width: 6%;
+  width: 5%;
   height: auto;
 }
 
 .name {
-  font-size: 1.5vw;
-  padding-left: .2rem;
+  font-size: 1.2vw;
+  padding-left: .2vw;
+  line-height: 1;
 }
 
 .name:hover {
@@ -37,14 +38,14 @@
 }
 
 .nav a {
-  font-size: 1.1vw;
+  font-size: 1vw;
   color: #757575;
   text-decoration: none;
   margin: .5vw;
 }
 
 .nav a:hover {
-  color: #D37C2E;
+  color: #EC5A5A;
   text-decoration: underline;
   cursor: pointer;
 }

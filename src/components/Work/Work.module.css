@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16vw;
+}
+
+.header {
+  margin: auto;
+  text-align: center;
+  padding: 6vw 0;
+}
+
+.header span {
+  font-size: 4vw;
+  text-align: center;
+  letter-spacing: -2px;
+  line-height: 1.2;
+}
+
+.opening1 {
+  color: #2A2A2A;
+}
+
+.opening2 {
+  color: #757575;
+}
+
+.title {
+  font-size: 1.2vw;
+  color: #757575;
+}

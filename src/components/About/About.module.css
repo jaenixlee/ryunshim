@@ -1,0 +1,73 @@
+.container {
+  padding: 1vw 2.2vw;
+}
+
+.greeting {
+  font-size: 2vw;
+}
+
+.topCard {
+  line-height: .8;
+}
+
+.name span {
+  font-weight: 500;
+  font-size: 1.6vw;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 1.2vw;
+}
+
+.intro {
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: .8;
+}
+
+.intro span {
+  color: #EC5A5A;
+}
+
+.intro a {
+  color: #757575;
+}
+
+.svgs {
+  margin-top: 2vw;
+}
+
+.svgs svg {
+  margin-right: 1.5vw;
+  width: 1%;
+  height: auto;
+}
+
+.svgs svg:hover path {
+  fill: #EC5A5A;
+  cursor: pointer;
+}
+
+.button {
+  margin: 1vw 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2A2A2A;
+  color: white;
+  width: 11vw;
+  height: 2.6vw;
+  border-radius: 3px;
+  font-size: 1vw;
+}
+
+.button svg {
+  margin-right: .5vw;
+  width: 10%;
+  height: auto;
+}
+
+.button:hover {
+  cursor: pointer;
+}
