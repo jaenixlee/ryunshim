@@ -6,13 +6,21 @@
   font-size: 2vw;
 }
 
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  width: 50%;
+}
+
 .topCard {
   line-height: .8;
 }
 
 .name span {
   font-weight: 500;
-  font-size: 1.6vw;
+  font-size: 1.7vw;
 }
 
 .name {
@@ -40,7 +48,7 @@
 
 .svgs svg {
   margin-right: 1.5vw;
-  width: 1%;
+  width: 4%;
   height: auto;
 }
 
@@ -70,4 +78,15 @@
 
 .button:hover {
   cursor: pointer;
+}
+
+.bio {
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1.8;
+  margin: 2vw 0;
+}
+
+.pics span {
+  font-size: 1.7vw;
 }
