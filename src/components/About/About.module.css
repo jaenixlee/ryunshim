@@ -84,9 +84,28 @@
   font-weight: 400;
   font-size: 1vw;
   line-height: 1.8;
-  margin: 2vw 0;
+  margin-bottom: 2vw;
 }
 
-.pics span {
+.pics {
+  width: 100%;
+}
+
+.pics p {
   font-size: 1.7vw;
+}
+
+.pics svg {
+  display: block;
+  margin: auto;
+  width: 1%;
+  height: auto;
+}
+
+.headers {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1.5vw;
+  font-weight: 400;
+  font-size: .9vw;
 }
