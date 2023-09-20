@@ -9,11 +9,11 @@
 .header {
   margin: auto;
   text-align: center;
-  padding: 8vw 0;
+  padding: 10vw 0 12vw 0;
 }
 
 .header span {
-  font-size: 3.2vw;
+  font-size: 3.4vw;
   text-align: center;
   letter-spacing: -2px;
   line-height: 1.2;

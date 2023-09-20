@@ -5,6 +5,15 @@
   padding: 0 2vw;
 }
 
+.artPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vw;
+  color: #FFFFFF;
+  background: #060606;
+}
+
 .left {
   display: flex;
   align-items: center;
@@ -44,6 +53,12 @@
   margin: .5vw;
 }
 
+.artPageNav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: .5vw;
+}
+
 .nav a:hover {
   color: #EC5A5A;
   text-decoration: underline;
@@ -51,7 +66,10 @@
 }
 
 .active {
-  color: #2A2A2A !important
+  color: #2A2A2A !important;
 }
 
+.artActive {
+  color: #FFFFFF !important;
+}
 

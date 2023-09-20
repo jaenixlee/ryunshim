@@ -46,6 +46,7 @@ const About = () => {
           <span>studio ghibli</span>
           <span>sunsets</span>
         </div>
+        <div className={styles.picGrid}></div>
       </div>
     </div>
   )
