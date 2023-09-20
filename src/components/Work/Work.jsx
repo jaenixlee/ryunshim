@@ -9,8 +9,25 @@ const Work = () => {
         <span className={styles.opening2}>striving to<br />craft with intentionality &<br />sincerity in every pixel & flow</span>
       </div>
       <div className={styles.caseStudies}>
-        <span className={styles.title}>01. CASE STUDIES</span>
-        <div className={styles.caseStudiesContainer}></div>
+        <p className={styles.heading}>01. CASE STUDIES</p>
+        <div className={styles.caseStudiesContainer}>
+          <div className={styles.caseStudiesBox} style={{background: '#DCC8DF'}}>
+            <p className={styles.category}>Product Design, Prototyping</p>
+            <p className={styles.title}>Placeholder Text</p>
+          </div>
+          <div className={styles.caseStudiesBox} style={{background: '#DCC8DF'}}>
+            <p className={styles.category}>Product Design, Prototyping</p>
+            <p className={styles.title}>Placeholder Text</p>
+          </div>
+          <div className={styles.caseStudiesBox} style={{background: '#DCC8DF'}}>
+            <p className={styles.category}>Product Design, Prototyping</p>
+            <p className={styles.title}>Placeholder Text</p>
+          </div>
+          <div className={styles.caseStudiesBox} style={{background: '#DCC8DF'}}>
+            <p className={styles.category}>Product Design, Prototyping</p>
+            <p className={styles.title}>Placeholder Text</p>
+          </div>
+        </div>
       </div>
     </div>
   )

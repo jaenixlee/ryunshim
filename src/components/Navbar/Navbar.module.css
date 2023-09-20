@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1vw;
+  padding: 0 2vw;
 }
 
 .left {
   display: flex;
   align-items: center;
   flex: .25;
-  padding-left: 1rem;
+  padding-left: 2vw;
 }
 
 .left svg {
