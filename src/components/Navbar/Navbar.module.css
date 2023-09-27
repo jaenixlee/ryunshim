@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2vw;
+  padding: 0 2rem;
 }
 
 .artPage {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2vw;
+  padding: 0 2rem;
   color: #FFFFFF;
   background: #060606;
 }
@@ -18,17 +18,17 @@
   display: flex;
   align-items: center;
   flex: .25;
-  padding-left: 2vw;
+  padding-left: 2rem;
 }
 
 .left svg {
-  width: 5%;
+  width: 1.3rem;
   height: auto;
 }
 
 .name {
-  font-size: 1.2vw;
-  padding-left: .2vw;
+  font-size: 1.2rem;
+  padding-left: .2rem;
   line-height: 1;
 }
 
@@ -43,20 +43,20 @@
 .nav {
   display: flex;
   justify-content: space-evenly;
-  padding-right: .5vw;
+  padding-right: .5rem;
 }
 
 .nav a {
-  font-size: 1vw;
+  font-size: 1rem;
   color: #757575;
   text-decoration: none;
-  margin: .5vw;
+  margin: .5rem;
 }
 
 .artPageNav {
   display: flex;
   justify-content: space-evenly;
-  padding-right: .5vw;
+  padding-right: .5rem;
 }
 
 .nav a:hover {

@@ -21,9 +21,9 @@ const Footer = () => {
             <NavLink to="/art" className={({ isActive }) => (isActive ? styles.active : null)}>Art</NavLink>
             <NavLink to="/resume" className={({ isActive }) => (isActive ? styles.active : null)}>Resume/CV</NavLink>
           </nav>
+        <p className={styles.copyright}>© 2023 Ryun Shim</p>
         </div>
       </div>
-        <p className={styles.copyright}>© 2023 Ryun Shim</p>
     </div>
   )
 }

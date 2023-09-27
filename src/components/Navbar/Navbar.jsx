@@ -15,12 +15,12 @@ const Navbar = () => {
         <p onClick={() => window.location.href="/"} className={styles.name}>Ryun Shim</p>
       </div>
       <div className={styles.right}>
-        <nav className={styles.nav}>
+        <div className={styles.nav}>
           <NavLink to="/" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>Work</NavLink>
           <NavLink to="/about" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>About</NavLink>
           <NavLink to="/art" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>Art</NavLink>
           <NavLink to="/resume" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>Resume/CV</NavLink>
-        </nav>
+        </div>
       </div>
     </div>
   )

@@ -2,18 +2,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 15vw;
+  padding: 0 15rem;
   margin: auto;
 }
 
 .header {
   margin: auto;
   text-align: center;
-  padding: 10vw 0 12vw 0;
+  padding: 10rem 0 12rem 0;
 }
 
 .header span {
-  font-size: 3.4vw;
+  font-size: 3.4rem;
   text-align: center;
   letter-spacing: -2px;
   line-height: 1.2;
@@ -28,12 +28,12 @@
 }
 
 .heading {
-  font-size: 1vw;
+  font-size: 1rem;
   color: #757575;
 }
 
 .caseStudies {
-  padding: 0 7.5vw;
+  padding: 0 7.5rem;
 }
 
 .caseStudiesContainer {
@@ -44,11 +44,11 @@
 }
 
 .caseStudiesBox {
-  width: 23.8vw;
-  height: 25.8vw;
+  width: 23.8rem;
+  height: 25.8rem;
   border-radius: 12px;
-  padding: 1.2vw 1.2vw;
-  margin-bottom: 2vw;
+  padding: 1.2rem 1.2rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -60,9 +60,9 @@
 
 .category {
   color: #757575;
-  font-size: .8vw;
+  font-size: .8rem;
 }
 
 .title {
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
