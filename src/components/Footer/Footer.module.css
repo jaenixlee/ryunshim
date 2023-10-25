@@ -7,7 +7,6 @@
 }
 
 .left {
-  /* display: flex; */
   flex: .25;
   height: 100%;
   padding-top: 1.5rem;
@@ -20,7 +19,7 @@
   height: auto;
 }
 
-.left svg:hover path {
+.left svg:hover {
   cursor: pointer;
 }
 
