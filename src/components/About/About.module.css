@@ -57,7 +57,13 @@
   cursor: pointer;
 }
 
-.button {
+.buttons {
+  display: flex;
+  width: 105%;
+  justify-content: space-between;
+}
+
+.button1 {
   margin: 1rem 0;
   display: flex;
   justify-content: center;
@@ -70,7 +76,28 @@
   font-size: 1rem;
 }
 
-.button svg {
+.button2 {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #2A2A2A;
+  width: 11rem;
+  height: 2.rem;
+  box-sizing: border-box;
+  border: .1rem solid #2A2A2A;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.button1 svg {
+  margin-right: .5rem;
+  width: 1rem;
+  height: auto;
+}
+
+.button2 svg {
   margin-right: .5rem;
   width: 1rem;
   height: auto;
