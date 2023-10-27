@@ -1,11 +1,27 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import styles from './Navbar.module.css';
+import CV from '../../assets/CV.pdf';
+import Resume from '../../assets/Resume.pdf';
 
 const Navbar = () => {
 
   const location = useLocation();
   const artPage = location.pathname === '/art';
   const pili = location.pathname === '/pili';
+
+  const openResumeCV = () => {
+    const link1 = document.createElement('a');
+    link1.href = CV;
+    link1.target = '_blank';
+    document.body.appendChild(link1);
+    link1.click();
+
+    const link2 = document.createElement('a');
+    link2.href = Resume;
+    link2.target = '_blank';
+    document.body.appendChild(link2);
+    link2.click();
+  }
 
   return (
     <div className={`${styles.navbar} ${artPage ? styles.artPage : ''} ${pili ? styles.pili : ''}`}>
@@ -20,7 +36,7 @@ const Navbar = () => {
           <NavLink to="/" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>Work</NavLink>
           <NavLink to="/about" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>About</NavLink>
           <NavLink to="/art" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>Art</NavLink>
-          <NavLink to="/resume" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>Resume/CV</NavLink>
+          <a className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`} onClick={openResumeCV}>Resume/CV</a>
         </div>
       </div>
     </div>
