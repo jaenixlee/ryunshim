@@ -34,31 +34,34 @@
 .category {
   color: #757575;
   font-size: 1rem;
+  padding-left: 1.5rem;
 }
 
 .title {
   margin: 0;
   font-size: 1.4rem;
+  padding: 0 1.5rem 1.5rem 1.5rem;
 }
 
 .caseStudiesContainer {
   margin-bottom: 5rem; 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25.8rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(24.8rem, 1fr));
   grid-gap: 1.5rem;
 }
 
 .caseStudiesBox {
-  height: 28.8rem;
+  height: 29.8rem;
+  padding-top: 1.5rem;
   border-radius: 12px;
-  padding: 1.5rem;
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.caseStudiesBox p, .researchBox p {
+.caseStudiesBox p {
+  padding-right: 10rem;
   margin: 0;
 }
 
@@ -69,7 +72,7 @@
 .researchContainer {
   margin-bottom: 5rem; 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25.8rem, 1fr)); 
+  grid-template-columns: repeat(auto-fill, minmax(24.8rem, 1fr)); 
   grid-gap: 1.5rem;
 }
 
@@ -80,17 +83,22 @@
 }
 
 .researchBox {
-  height: 28.8rem;
+  height: 29.8rem;
   border-radius: 12px;
-  padding: 1.5rem;
+  padding-top: 1rem;
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
+.researchBox p {
+  padding-right: 8rem;
+  margin: 0;
+}
+
 .researchRight .researchBox {
-  height: 12.2rem;
+  height: 13.8rem;
   margin-bottom: 1rem;
 }
 
@@ -120,6 +128,11 @@
   color: #2A2A2A;
 }
 
+.projTitle {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
 .left {
   display: flex;
   flex-direction: row;
@@ -129,6 +142,7 @@
 .left svg {
   width: 2rem;
   margin-right: .8rem;
+  margin-top: .3rem;
   height: auto;
 }
 
@@ -141,6 +155,10 @@
 }
 
 .arrow {
+  display: none;
+}
+
+.controller1Hover, .controller2Hover {
   display: none;
 }
 
@@ -161,12 +179,40 @@
   display: inline;
 }
 
-.project:hover .controller1 path {
-  fill: #FFC700;
-  box-shadow: 0px 1px 4px 0px #FF7A0066;
+.project:hover .controller1, .project:hover .controller2 {
+  display: none;
 }
 
-.project:hover .controller2 path {
-  fill: #FFBAEC;
-  box-shadow: 0px 1px 4px 0px #00D1FF66;
+.project:hover .controller1Hover, .project:hover .controller2Hover {
+  display: inline;
+}
+
+.pili {
+  width: 100%;
+  height: auto;
+}
+
+.lab {
+  align-self: center;
+  width: 80%;
+  height: auto;
+}
+
+.mind {
+  align-self: center;
+  width: 85%;
+  height: auto;
+}
+
+.social {
+  align-self: center;
+  width: 85%;
+  height: auto;
+}
+
+.codesign {
+  align-self: center;
+  width: 46%;
+  height: auto;
+  padding-bottom: .5rem;
 }
