@@ -1,0 +1,137 @@
+.container {
+  padding: 1rem 4.2rem;
+}
+
+.greeting {
+  font-size: 2rem;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  width: 52%;
+}
+
+.topCard {
+  line-height: .8;
+}
+
+.name span {
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.intro {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: .8;
+}
+
+.intro span {
+  color: #EC5A5A;
+}
+
+.intro a {
+  color: #757575;
+}
+
+.svgs {
+  margin-top: 2rem;
+}
+
+.svgs svg {
+  margin-right: 1.5rem;
+  width: 1rem;
+  height: auto;
+}
+
+.svgs svg:hover path {
+  fill: #EC5A5A;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  width: 105%;
+  justify-content: space-between;
+}
+
+.button1 {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2A2A2A;
+  color: white;
+  width: 11rem;
+  height: 2.6rem;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.button2 {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #2A2A2A;
+  width: 11rem;
+  height: 2.rem;
+  box-sizing: border-box;
+  border: .1rem solid #2A2A2A;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.button1 svg {
+  margin-right: .5rem;
+  width: 1rem;
+  height: auto;
+}
+
+.button2 svg {
+  margin-right: .5rem;
+  width: 1rem;
+  height: auto;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.bio {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.pics {
+  width: 100%;
+}
+
+.pics p {
+  font-size: 1.7rem;
+}
+
+.pics svg {
+  display: block;
+  margin: auto;
+  width: 1rem;
+  height: auto;
+}
+
+.headers {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: .9rem;
+}

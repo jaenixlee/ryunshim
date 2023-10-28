@@ -1,0 +1,172 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 13rem;
+  margin: auto;
+}
+
+.header {
+  margin: auto;
+  padding: 10rem 0 12rem 0;
+}
+
+.header p {
+  text-align: left;
+  line-height: 1.2;
+}
+
+.opening1 {
+  font-size: 3rem;
+  color: #2A2A2A;
+}
+
+.opening2 {
+  font-size: 2rem;
+  color: #757575;
+}
+
+.heading {
+  font-size: 1rem;
+  color: #757575;
+}
+
+.category {
+  color: #757575;
+  font-size: 1rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.caseStudiesContainer {
+  margin-bottom: 5rem; 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25.8rem, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.caseStudiesBox {
+  height: 28.8rem;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.caseStudiesBox p, .researchBox p {
+  margin: 0;
+}
+
+.caseStudiesBox:hover {
+  cursor: pointer;
+}
+
+.researchContainer {
+  margin-bottom: 5rem; 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25.8rem, 1fr)); 
+  grid-gap: 1.5rem;
+}
+
+.researchRight {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.researchBox {
+  height: 28.8rem;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.researchRight .researchBox {
+  height: 12.2rem;
+  margin-bottom: 1rem;
+}
+
+.researchRight .researchBox p  {
+  padding-right: 0;
+}
+
+.researchBox:hover {
+  cursor: pointer;
+}
+
+.projects {
+  margin-bottom: 6rem;
+}
+
+.project {
+  background: #F7F7F7;
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.projHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2A2A2A;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left svg {
+  width: 2rem;
+  margin-right: .8rem;
+  height: auto;
+}
+
+.desc {
+  padding-left: 2.8rem;
+  margin: .2rem 0 0 0;
+  color: rgb(42, 42, 42, 0.5);
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.arrow {
+  display: none;
+}
+
+.project:hover {
+  cursor: pointer;
+  background: #2A2A2A;
+}
+
+.project:hover .title {
+  color: #FBFBFB;
+}
+
+.project:hover p {
+  color: rgba(251, 251, 251, 0.5)
+}
+
+.project:hover .arrow {
+  display: inline;
+}
+
+.project:hover .controller1 path {
+  fill: #FFC700;
+  box-shadow: 0px 1px 4px 0px #FF7A0066;
+}
+
+.project:hover .controller2 path {
+  fill: #FFBAEC;
+  box-shadow: 0px 1px 4px 0px #00D1FF66;
+}

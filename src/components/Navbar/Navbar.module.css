@@ -1,0 +1,83 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 2rem;
+}
+
+.artPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  color: #FFFFFF;
+  background: #060606;
+}
+
+.pili {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  color: #2A2A2A;
+  background: rgba(217, 217, 217, 0.5);
+}
+
+.left {
+  display: flex;
+  flex: .25;
+  padding-left: 2rem;
+}
+
+.left svg {
+  width: 1.3rem;
+  height: auto;
+}
+
+.name {
+  font-size: 1.2rem;
+  padding-left: .2rem;
+  line-height: 1;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+.right {
+  flex: .25;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: .5rem;
+}
+
+.nav a {
+  font-size: 1rem;
+  color: #757575;
+  text-decoration: none;
+  margin: .5rem;
+}
+
+.artPageNav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: .5rem;
+}
+
+.nav a:hover {
+  color: #EC5A5A;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.active {
+  color: #2A2A2A !important;
+}
+
+.artActive {
+  color: #FFFFFF !important;
+}
+

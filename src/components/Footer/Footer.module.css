@@ -1,0 +1,61 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  padding: 0 2rem;
+}
+
+.left {
+  flex: .25;
+  height: 100%;
+  padding-top: 1.5rem;
+  padding-left: 2.2rem;
+}
+
+.left svg {
+  margin-right: 1.5rem;
+  width: 1rem;
+  height: auto;
+}
+
+.left svg:hover {
+  cursor: pointer;
+}
+
+.right {
+  flex: .25;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: .5rem
+}
+
+.nav a {
+  font-size: 1rem;
+  color: #757575;
+  text-decoration: none;
+  margin: .5rem;
+}
+
+.nav a:hover {
+  color: #EC5A5A;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.active {
+  color: #2A2A2A !important
+}
+
+.copyright {
+  position: relative;
+  float: right;
+  bottom: .1rem;
+  padding-right: 2.5vw;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #757575;
+}

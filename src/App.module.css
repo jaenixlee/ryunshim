@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url('./assets/Graphik Font/graphikregular-webfont.woff2') format('woff2'),
+       url('./assets/Graphik Font/graphikregular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('./assets/Graphik Font/graphiklight-webfont.woff2') format('woff2'),
+       url('./assets/Graphik Font/graphiklight-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('./assets/Graphik Font/graphikmedium-webfont.woff2') format('woff2'),
+       url('./assets/Graphik Font/graphikmedium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: medium;
+}
+
+
+body {
+  font-family: "Graphik", sans-serif;
+  font-weight: 500;
+  color: #2A2A2A;
+  margin: 0;
+  padding: 0;
+}
