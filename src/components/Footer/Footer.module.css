@@ -34,10 +34,10 @@
 }
 
 .nav a {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #757575;
   text-decoration: none;
-  margin: .5rem;
+  margin: 1rem;
 }
 
 .nav a:hover {
@@ -54,7 +54,7 @@
   position: relative;
   float: right;
   bottom: .1rem;
-  padding-right: 2.5vw;
+  padding-right: 2vw;
   font-size: 1rem;
   font-weight: 300;
   color: #757575;

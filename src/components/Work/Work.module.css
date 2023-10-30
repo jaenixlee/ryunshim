@@ -90,6 +90,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  overflow: hidden;
 }
 
 .researchBox p {
@@ -201,7 +202,7 @@
 .mind {
   align-self: center;
   width: 85%;
-  height: auto;
+  height: 100%;
 }
 
 .social {
@@ -215,4 +216,83 @@
   width: 46%;
   height: auto;
   padding-bottom: .5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 6rem;
+  }
+
+  .opening2 br {
+    display: none;
+  }
+
+  .caseStudiesContainer, .researchContainer {
+    grid-template-columns: repeat(auto-fill, minmax(20.8rem, 1fr));
+  }
+
+  .caseStudiesBox, .researchBox {
+    height: 32rem;
+  }
+
+  .researchRight .researchBox {
+    height: 16rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  .opening1 {
+    font-size: 1.8rem;
+  }
+
+  .opening2 {
+    font-size: 1.2rem;
+  }
+
+  .opening2 br {
+    display: none;
+  }
+
+  .caseStudiesContainer, .researchContainer {
+    grid-template-columns: repeat(auto-fill, minmax(12.8rem, 1fr));
+  }
+  
+  .caseStudiesBox {
+    margin-bottom: 0;
+  }
+
+  .caseStudiesBox, .researchBox {
+    height: 18rem;
+  }
+
+  .researchRight .researchBox {
+    height: 9rem;
+  }
+
+  .category {
+    font-size: .6rem;
+    padding-left: 1rem;
+  }
+
+  .title {
+    font-size: .8rem;
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  .caseStudiesBox p, .researchBox p {
+    padding-right: 0;
+  }
+
+  .projTitle {
+    font-size: 1rem;
+  }
+  
+  .desc {
+    font-size: .7rem;
+  }
+
 }

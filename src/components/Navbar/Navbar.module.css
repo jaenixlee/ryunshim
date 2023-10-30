@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: .5rem 2rem;
+  padding: 1rem 2rem 0 2rem;
 }
 
 .artPage {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+  padding: 1rem 2rem 0 2rem;
   color: #FFFFFF;
   background: #060606;
 }
@@ -18,9 +18,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+  padding: 1rem 2rem 0 2rem;
   color: #2A2A2A;
-  background: rgba(217, 217, 217, 0.5);
+  background: rgba(217, 217, 217, 0.4);
 }
 
 .left {
@@ -30,12 +30,12 @@
 }
 
 .left svg {
-  width: 1.3rem;
+  width: 1.5rem;
   height: auto;
 }
 
 .name {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding-left: .2rem;
   line-height: 1;
 }
@@ -55,10 +55,10 @@
 }
 
 .nav a {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #757575;
   text-decoration: none;
-  margin: .5rem;
+  margin: 1rem;
 }
 
 .artPageNav {

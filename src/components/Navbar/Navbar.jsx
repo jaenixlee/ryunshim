@@ -8,6 +8,8 @@ const Navbar = () => {
   const location = useLocation();
   const artPage = location.pathname === '/art';
   const pili = location.pathname === '/pili';
+  const mind = location.pathname === '/mindfulness-magic-machines';
+  const merlin = location.pathname === '/merlin-bird-id';
 
   const openResumeCV = () => {
     const link1 = document.createElement('a');
@@ -33,7 +35,7 @@ const Navbar = () => {
       </div>
       <div className={styles.right}>
         <div className={styles.nav}>
-          <NavLink to="/" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>Work</NavLink>
+          <NavLink to="/" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''} ${pili || mind || merlin ? styles.active : ''}`}>Work</NavLink>
           <NavLink to="/about" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>About</NavLink>
           <NavLink to="/art" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>Art</NavLink>
           <a className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`} onClick={openResumeCV}>Resume/CV</a>

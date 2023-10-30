@@ -20,7 +20,7 @@ const Work = () => {
       <div className={styles.caseStudies}>
         <p className={styles.heading}>01. CASE STUDIES</p>
         <div className={styles.caseStudiesContainer}>
-          <div className={styles.caseStudiesBox} style={{ background: '#DCC8DF' }}>
+          <div className={styles.caseStudiesBox} style={{ background: '#DCC8DF' }} onClick={() => window.location.href='/pili'}>
             <img className={styles.pili} src={Pili}></img>
             <p className={styles.category}>Product Design, User Testing</p>
             <p className={styles.title}>Bridging the Gap in STEM Education</p>
@@ -50,7 +50,7 @@ const Work = () => {
               <p className={styles.category}>LLM-Chain Technologies</p>
               <p className={styles.title}>The Social Media Playwright: Chatbot</p>
             </div>
-            <div className={styles.researchBox} style={{ background: 'rgb(255, 129, 129, 0.5)' }} onClick={() => window.open("https://drive.google.com/file/d/1IdgQq4VAM8zWydGm2IOM_fXOLRpWqzoI/view?usp=sharing", "_blank")}>
+            <div className={styles.researchBox} style={{ background: 'rgb(255, 129, 129, 0.4)' }} onClick={() => window.open("https://drive.google.com/file/d/1IdgQq4VAM8zWydGm2IOM_fXOLRpWqzoI/view?usp=sharing", "_blank")}>
             <img className={styles.codesign} src={Codesign}></img>
               <p className={styles.category}>Co-Design, Large Language Models</p>
               <p className={styles.title}>Co-Designing LLM Prompts with Experts</p>
