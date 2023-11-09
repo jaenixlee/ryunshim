@@ -7,3 +7,27 @@
   color: #FFFFFF;
   font-size: 2rem;
 }
+
+.artContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.artContainer img {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+}
+
+.section1 {
+  width: 100%;
+  padding: 1rem 4.2rem;
+  background: #060606;
+}
+
+.section1 p {
+  color: #FBFBFB;
+  font-weight: 300;
+  font-size: 1rem;
+  font-style: italic;
+}

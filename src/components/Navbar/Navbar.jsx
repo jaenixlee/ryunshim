@@ -38,7 +38,7 @@ const Navbar = () => {
           <NavLink to="/" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''} ${pili || mind || merlin ? styles.active : ''}`}>Work</NavLink>
           <NavLink to="/about" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>About</NavLink>
           <NavLink to="/art" className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`}>Art</NavLink>
-          <a className={({isActive}) => `${isActive ? styles.active : ''} ${artPage && isActive ? styles.artActive : ''}`} onClick={openResumeCV}>Resume/CV</a>
+          <NavLink className={({artPage}) => `${artPage ? styles.artActive : ''}`} onClick={openResumeCV}>Resume/CV</NavLink>
         </div>
       </div>
     </div>
