@@ -15,10 +15,10 @@ import m from '../../assets/Art/14.png';
 import n from '../../assets/Art/15.png';
 import o from '../../assets/Art/16.png';
 import p from '../../assets/Art/17.png';
-import q from '../../assets/Art/18.png';
-import r from '../../assets/Art/19.png';
-import s from '../../assets/Art/20.png';
-import t from '../../assets/Art/21.png';
+import q from '../../assets/Art/18.jpg';
+import r from '../../assets/Art/19.jpg';
+import s from '../../assets/Art/20.jpg';
+import t from '../../assets/Art/21.jpg';
 
 
 const Art = () => {
