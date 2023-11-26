@@ -1,6 +1,6 @@
 import styles from './Pili.module.css';
 import a from '../../assets/Pili/1.png';
-import b from '../../assets/Pili/class.png';
+import b from '../../assets/Pili/Class.png';
 import c from '../../assets/Pili/3.png';
 
 const Pili = () => {
