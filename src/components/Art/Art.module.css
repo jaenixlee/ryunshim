@@ -15,7 +15,7 @@
   flex-direction: column;
 }
 
-img {
+.artContainer img {
   display: block;
   margin: auto;
   max-inline-size: fit-content;
