@@ -67,6 +67,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  width: 31%;
 }
 
 .section3 .left p {
@@ -153,7 +154,7 @@
   font-size: .9rem;
   font-style: italic;
   text-transform: uppercase;
-  margin: 25rem 0 0 7rem;
+  margin: 25rem 0 0 4.5rem;
 }
 
 .section7 {
@@ -178,7 +179,7 @@
 }
 
 .section7 p {
-  margin: 0 0 0 12rem;
+  margin: 0 0 0 10rem;
   font-weight: 300;
   font-size: .9rem;
   font-style: italic;
@@ -207,7 +208,7 @@
 }
 
 .section8 p {
-  width: 50%;
+  width: 45%;
   text-align: center;
   font-weight: 300;
   font-size: .9rem;
@@ -254,7 +255,7 @@
 
 .section10 p:last-of-type {
   text-align: left;
-  margin-left: 2.5rem;
+  margin-left: 2rem;
 }
 
 .section10Single img {
