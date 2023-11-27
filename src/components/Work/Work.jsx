@@ -17,7 +17,7 @@ const Work = () => {
         </div>
       </FadeIn>
 
-      <div className={styles.caseStudies}>
+      <div className={styles.caseStudies} style={{ width: "100%"}}>
         <p className={styles.heading}>01. CASE STUDIES</p>
         <div className={styles.caseStudiesContainer}>
           <div className={styles.caseStudiesBox} style={{ background: '#DCC8DF' }} onClick={() => window.location.href='/pili'}>
@@ -34,7 +34,7 @@ const Work = () => {
       </div>
 
 
-      <div className={styles.research}>
+      <div className={styles.research} style={{ width: "100%"}}>
         <p className={styles.heading}>02. RESEARCH</p>
         <div className={styles.researchContainer}>
           <div className={styles.researchLeft}>
@@ -59,7 +59,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className={styles.projects}>
+      <div className={styles.projects} style={{ width: "100%"}}>
         <p className={styles.heading}>03. SIDE PROJECTS</p>
         <div className={styles.projectsContainer}>
           <div className={styles.project} onClick={() => window.open("https://gdiac.cs.cornell.edu/gdiac/showcase/gallery/stregheria/", "_blank")}>
