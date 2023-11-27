@@ -9,7 +9,7 @@
 }
 
 .artContainer {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -18,7 +18,7 @@
 img {
   display: block;
   margin: auto;
-  max-inline-size: 100vw;
+  max-inline-size: fit-content;
   block-size: auto;
 }
 
@@ -99,7 +99,7 @@ img {
 }
 
 .section4 img {
-  max-width: 100vw;
+  width: 100%;
   margin: 0;
 }
 
@@ -126,6 +126,7 @@ img {
 }
 
 .section5 img {
+  width: 100%;
   margin: 0;
 }
 
