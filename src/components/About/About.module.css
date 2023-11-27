@@ -95,7 +95,6 @@
   background-color: white;
   color: #2A2A2A;
   width: 11rem;
-  height: 2.rem;
   box-sizing: border-box;
   border: .1rem solid #2A2A2A;
   border-radius: 3px;
@@ -145,11 +144,9 @@
 }
 
 .picGrid {
-  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-items: flex-start;
   gap: 3rem;
   margin: 4rem 0;
 }
@@ -161,6 +158,6 @@
 }
 
 .picGrid img {
-  /* width: 24.5%; */
+  width: 25%;
   height: auto;
 }
