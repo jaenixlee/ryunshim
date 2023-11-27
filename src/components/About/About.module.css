@@ -156,7 +156,7 @@
 .row1, .row2, .row3, .row4 {
   display: flex;
   justify-content: flex-start;
-  gap: .5rem;
+  /* gap: .5rem; */
 }
 
 .picGrid img {
