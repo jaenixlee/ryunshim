@@ -12,21 +12,17 @@ const Navbar = () => {
   const merlin = location.pathname === '/merlin-bird-id';
 
   const openResumeCV = () => {
-    // const link1 = document.createElement('a');
-    // link1.href = Resume;
-    // link1.target = '_blank';
-    // document.body.appendChild(link1);
-    // link1.click();
+    const link1 = document.createElement('a');
+    link1.href = Resume;
+    link1.target = '_blank';
+    document.body.appendChild(link1);
+    link1.click();
 
-    // const link2 = document.createElement('a');
-    // link2.href = CV;
-    // link2.target = '_new';
-    // document.body.appendChild(link2);
-    // link2.click();
-    window.open(Resume, "Resume");
-    setTimeout(function () {
-      window.open(CV, "CV");
-    }, 100);
+    const link2 = document.createElement('a');
+    link2.href = CV;
+    link2.target = '_new';
+    document.body.appendChild(link2);
+    link2.click();
   }
 
   return (
