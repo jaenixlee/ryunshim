@@ -1,9 +1,10 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import styles from './Navbar.module.css';
 import Resume from '../../assets/Resume.pdf';
 
 const Navbar = () => {
 
+  const location = useLocation();
   const artPage = location.pathname === '/art';
   const pili = location.pathname === '/pili';
   const mind = location.pathname === '/mindfulness-magic-machines';
