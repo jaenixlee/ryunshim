@@ -136,11 +136,10 @@
   height: auto;
 }
 
-.headers {
-  display: flex;
-  justify-content: space-between;
+.headers span {
   font-weight: 400;
   font-size: .9rem;
+  margin: 0 4rem;
 }
 
 .picGrid {

@@ -1,4 +1,5 @@
 import styles from './About.module.css';
+import Marquee from "react-fast-marquee";
 import about from '../../assets/About_photo.png';
 import a from "../../assets/Polaroids/1.png";
 import b from "../../assets/Polaroids/2.png";
@@ -68,14 +69,24 @@ const About = () => {
         <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M7.99241 14.9957C8.18828 14.9957 8.47456 14.845 8.70809 14.6943C12.9193 11.9823 15.6163 8.80315 15.6163 5.58636C15.6163 2.8065 13.6953 0.87793 11.2921 0.87793C9.79292 0.87793 8.67043 1.70661 7.99241 2.9421C7.32947 1.70661 6.19945 0.87793 4.70028 0.87793C2.28957 0.87793 0.36853 2.8065 0.36853 5.58636C0.36853 8.80315 3.07305 11.9823 7.27673 14.6943C7.51027 14.845 7.79654 14.9957 7.99241 14.9957Z" fill="#D37C2E" />
         </svg>
-        <div className={styles.headers}>
+        <Marquee className={styles.headers}>
           <span>8px grid</span>
           <span>skincare</span>
           <span>cafe hopping</span>
           <span>color schemes</span>
           <span>studio ghibli</span>
           <span>sunsets</span>
-        </div>
+          <span>art museums</span>
+          <span>women in tech</span>
+          <span>prototyping</span>
+          <span>dogs</span>
+          <span>bubble tea</span>
+          <span>rnb</span>
+          <span>working with a tech team</span>
+          <span>sound of rain</span>
+          <span>creative problem solving</span>
+          <span>planning</span>
+        </Marquee>
         <div className={styles.picGrid}>
           <div className={styles.row1}>
             <img src={a}></img>
