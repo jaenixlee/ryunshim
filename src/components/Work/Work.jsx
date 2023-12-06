@@ -44,8 +44,8 @@ const Work = () => {
               <p className={styles.title}>Mindfulness Enriched Through Creative Collaboration</p>
             </div>
           </div>
-          <div className={styles.researchRight} onClick={() => window.open("https://drive.google.com/file/d/1wjj5c1S5hJEm6-0530pJRC3S1Lr7__Fb/view?usp=sharing", "_blank")}>
-            <div className={styles.researchBox} style={{ background: '#D1DAFC' }}>
+          <div className={styles.researchRight}>
+            <div className={styles.researchBox} style={{ background: '#D1DAFC' }} onClick={() => window.open("https://drive.google.com/file/d/1wjj5c1S5hJEm6-0530pJRC3S1Lr7__Fb/view?usp=sharing", "_blank")}>
             <img className={styles.social} src={Social}></img>
               <p className={styles.category}>LLM-Chain Technologies</p>
               <p className={styles.title}>The Social Media Playwright: Chatbot</p>
