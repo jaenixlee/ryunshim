@@ -7,6 +7,14 @@ import charts from '../../assets/Pili/Charts.png';
 import e from '../../assets/Pili/4.png';
 import f from '../../assets/Pili/5.png';
 import g from '../../assets/Pili/6.png';
+import h from '../../assets/Pili/7.png';
+import i from '../../assets/Pili/8.gif';
+import j from '../../assets/Pili/9.gif';
+import k from '../../assets/Pili/10.gif';
+import l from '../../assets/Pili/11.gif';
+import m from '../../assets/Pili/12.gif';
+import n from '../../assets/Pili/13.png';
+import o from '../../assets/Pili/14.png';
 
 
 const Pili = () => {
@@ -148,14 +156,17 @@ const Pili = () => {
             <h2>🐟 Small Fish in a Big Pond</h2>
             <p>In large STEM lectures, the challenge of initiating connections can be particularly daunting because the sheer size of the class often means that students don&apos;t even know the names or faces of their classmates.</p>
           </div>
+
           <div className={styles.rightSection}>
             <h2>🌈 Varied Expectations</h2>
             <p>Some emphasized their desire for study partners who can help them excel academically, while others expressed the need for a social support network to navigate the challenges of STEM coursework.</p>
           </div>
+
           <div className={styles.rightSection}>
             <h2>👯 Importance of Diversity</h2>
             <p>Students stressed the vital importance of diversity, drawing from their experiences in team and project based STEM courses.</p>
           </div>
+
           <div className={styles.rightSection}>
             <h2>😰 Anxiousness</h2>
             <p>Large lectures often result in initial awkwardness and superficial conversations, coupled with the challenge of finding like-minded peers and initiating meaningful dialogues.</p>
@@ -167,7 +178,91 @@ const Pili = () => {
       <div className={styles.section9}>
         <p>Structured interviews with Cornell minority STEM students provided firsthand accounts and humanized our understanding, revealing the need for a versatile platform that nurtures both academic and social connections.</p>
       </div>
-      
+
+      <div className={styles.section10}>
+        <p style={{ fontStyle: "italic", fontSize: "1.5rem", color: "#FBFBFB", fontWeight: "400", marginBottom: "0.5rem" }}>Painpoints</p>
+        <div className={styles.columns}>
+          <div className={styles.column}>
+            <h3>Desire for Connection</h3>
+            <p>Students may struggle to find like-minded peers or study partners, which could impact their engagement and academic success.</p>
+          </div>
+
+          <div className={styles.column}>
+            <h3>Diverse Objective</h3>
+            <p>Different student relationship goals (such as seeking lifelong friends or study partners) can result in interactions that don&apos;t align, leading to a less than optimal experience.</p>
+          </div>
+
+          <div className={styles.column}>
+            <h3>Sense of Isolation</h3>
+            <p>Similar to their peers, minority students frequently feel lonely or nervous in large classroom settings. A lack of diversity intensifies this, contributing to detachment and isolation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.section11}>
+        <div className={styles.first}>
+          <h3>WIDENING THE SCOPE</h3>
+          <p style={{ fontSize: "2rem", fontWeight: "400", marginTop: "0.5rem" }}>Contrary to a centralized STEM-oriented solution, our interviews <b>revealed the need for a broader scope</b>, including students from various majors and interests, reflecting the diverse nature of STEM courses.</p>
+        </div>
+
+        <p style={{ fontSize: "2.25rem", textAlign: "center", fontWeight: "300" }}>How might we facilitate meaningful connections  and alleviate emotional challenges commonly experienced in disconnected, large STEM lectures?</p>
+      </div>
+
+      <div className={styles.section12}>
+        <p style={{ color: "#FBFBFB", fontWeight: "400", fontSize: "2.25rem" }}><b>Pili</b> enables students to fostering diverse bonds and provides a space for collaboration beyond the classroom, ultimately enhancing the sense of belonging and reducing feelings of isolation in STEM education.</p>
+      </div>
+
+      <div className={styles.section13}>
+        <div className={styles.bigSection}>
+          <h5>Flow Chart</h5>
+          <img style={{ width: "90%", height: "auto", padding: "0 4rem" }} src={h}></img>
+        </div>
+
+        <div className={styles.bigSection}>
+          <h5>Features</h5>
+          <div className={styles.innerSection}>
+            <img src={i}></img>
+            <div className={styles.sectionText}>
+              <p style={{ fontSize: "1.25rem", margin: "0"}}>Sign Up/Log In</p>
+              <p>Seamlessly importing course schedules from the college&apos;s registration systems, Pili simplifies the process. Its ability to connect students with diverse backgrounds and interests sparks the journey of meaningful academic relationships.</p>
+            </div>
+          </div>
+
+          <div className={styles.innerSection}>
+            <div style={{ paddingLeft: "8rem" }} className={styles.sectionText}>
+              <p style={{ fontSize: "1.25rem", margin: "0" }}>Dashboard</p>
+              <p>Upcoming courses, study sessions, study buddies, networking events, and chatrooms - the dashboard is the compass navigating students&apos; academic journeys. It transcends conventional course management, embracing workshops and networking opportunities.</p>
+            </div>
+            <img src={j}></img>
+          </div>
+
+          <div className={styles.innerSection}>
+            <img src={k}></img>
+            <div className={styles.sectionText}>
+              <p style={{ fontSize: "1.25rem", margin: "0"}}>Create Chatrooms</p>
+              <p>Breaking free from conventional group formation, Pili&apos;s chatroom feature groups students based on classes, interests, and preferences. This not only fosters diverse study groups but eliminates the hassle of offline group creation.</p>
+            </div>
+          </div>
+
+          <div  style={{ marginBottom: "0" }} className={styles.innerSection}>
+            <div style={{ paddingLeft: "8rem" }} className={styles.sectionText}>
+              <p style={{ fontSize: "1.25rem", margin: "0" }}>Foster Connections</p>
+              <p>Shared interests and courses bridge gaps, igniting conversations and eradicating initial barriers. By doing so, it fosters diverse bonds, collaboration beyond the classroom, enhances a sense of belonging, and reduces feelings of isolation in STEM education.</p>
+            </div>
+            <img src={l}></img>
+          </div>
+        </div>
+
+        <div className={styles.bigSection}>
+          <h5>Pili Video Demo</h5>
+          <img style={{ width: "32%", height: "auto", padding: "0 25rem" }} src={m}></img>
+        </div>
+
+        <div className={styles.bigSection}>
+          <h5>Design System</h5>
+          <img style={{ width: "90%", height: "auto" }} src={n}></img>
+        </div>
+      </div>
     </div>
   )
 }

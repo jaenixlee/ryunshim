@@ -309,3 +309,98 @@ hr {
   font-weight: 400;
   font-size: 1.25rem;
 }
+
+/* -------------------------- */
+
+.section10 {
+  background: #2A2A2A;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 6rem;
+}
+
+.section10 .columns {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.section10 .columns .column {
+  width: 35%;
+}
+
+.section10 .columns .column h3 {
+  color: #F8ECCF;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.section10 .columns .column p {
+  color: #FBFBFB;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2;
+}
+
+/* -------------------------- */
+
+.section11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 12rem;
+  gap: 10rem;
+}
+
+.section11 h3 {
+  color: #757575;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* -------------------------- */
+
+.section12 {
+  background: #2A2A2A;
+  padding: 4rem 15rem;
+}
+
+/* -------------------------- */
+
+.section13 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10rem;
+}
+
+.section13 h5 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.section13 .bigSection {
+  margin: 4rem 0;
+}
+
+.section13 .bigSection .innerSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12rem;
+  margin: 0 0 15rem 0;
+}
+
+.section13 .bigSection .innerSection img {
+  width: 35%;
+  height: auto;
+}
+
+.section13 .bigSection .innerSection .sectionText {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2;
+  margin-top: 0.5rem;
+  margin-bottom: 4rem;
+  width: 31%;
+}
