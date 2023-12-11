@@ -30,7 +30,7 @@ const Art = () => {
       </div>
       <div className={styles.artContainer}>
         <div className={styles.section1}>
-          <img src='https://media3.giphy.com/media/V3Z76ctCO3jG0/giphy.gif?cid=ecf05e47g1cxaseaeyldhk5do5am9krnuawwg17y1j4up5a1&ep=v1_gifs_search&rid=giphy.gif&ct=g'></img>
+          <img src='../../assets/Art/1.gif'></img>
           <p>El Wires, Adapters, Sequencer, Inverter // 40&quot;x60&quot;</p>
         </div>
 
