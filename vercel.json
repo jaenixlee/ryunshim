@@ -1,10 +1,5 @@
 {
   "rewrites":  [
     {"source": "/(.*)", "destination": "/"}
-  ],
-  "build": {
-    "images": {
-      "disableStaticImages": true
-    }
-  }
+  ]
 }
