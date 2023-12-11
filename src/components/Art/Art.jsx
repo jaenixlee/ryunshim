@@ -1,5 +1,5 @@
 import styles from './Art.module.css';
-import a from '../../assets/Art/1.gif';
+import a from '../../../src/assets/Art/1.gif';
 import b from '../../assets/Art/2.png';
 import c from '../../assets/Art/3.png';
 import d from '../../assets/Art/4.png';
