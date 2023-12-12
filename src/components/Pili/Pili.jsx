@@ -87,7 +87,7 @@ const Pili = () => {
           <p className={styles.specialSubHeading}>Uncovering Systemic Obstacles</p>
           <p style={{ marginTop: "0" }}>Exploratory research, including extensive secondary research and literature reviews, laid the groundwork by identifying systemic challenges that underrepresented STEM students face in academic settings.</p>
           <img style={{ position: "relative", left: "-12%", height: "auto", width: "125%" }} src={charts}></img>
-          <p>These statistics unveil the systemic challenges related to diversity and representation in STEM, which have the <mark style={{ fontStyle: "italic", fontWeight: "500", lineHeight: "2", display: "inline", padding: "0.5rem 0" }}>potential to directly contribute to the feelings of disconnection.</mark></p>
+          <p>These statistics unveil the systemic challenges related to diversity and representation in STEM, which have the <mark style={{ background: "#F8ECCF", fontStyle: "italic", fontWeight: "500", lineHeight: "2", display: "inline", padding: "0.5rem 0" }}>potential to directly contribute to the feelings of disconnection.</mark></p>
           <p className={styles.specialSubHeading}>Identifying the Gaps</p>
           <p style={{ marginTop: "0" }}>To inform our design and development process, we analyzed existing solutions addressing community-building in education. GroupMe and EdStem both fall short in fostering holistic student interactions, highlighting shortcomings in their ability to cater to the multifaceted needs of STEM students.</p>
         </div>
@@ -128,7 +128,7 @@ const Pili = () => {
       </div>
 
       <div className={styles.section7}>
-        <p>We uncovered a striking trend — <mark style={{ fontStyle: "italic", fontWeight: "500", lineHeight: "2", display: "inline", padding: "0.5rem 0" }}>educational institutions predominantly rely on generic communication and collaboration platforms for students.</mark>
+        <p>We uncovered a striking trend — <mark style={{ background: "#F8ECCF", fontStyle: "italic", fontWeight: "500", lineHeight: "2", display: "inline", padding: "0.5rem 0" }}>educational institutions predominantly rely on generic communication and collaboration platforms for students.</mark>
           &nbsp; This approach has resulted in the absence of a centralized, community-based platform specifically engineered to support connections,
           leaving a noticeable gap in the educational technology landscape.</p>
 
@@ -223,7 +223,7 @@ const Pili = () => {
           <div className={styles.innerSection}>
             <img src={i}></img>
             <div className={styles.sectionText}>
-              <p style={{ fontSize: "1.25rem", margin: "0"}}>Sign Up/Log In</p>
+              <p style={{ fontSize: "1.25rem", margin: "0" }}>Sign Up/Log In</p>
               <p>Seamlessly importing course schedules from the college&apos;s registration systems, Pili simplifies the process. Its ability to connect students with diverse backgrounds and interests sparks the journey of meaningful academic relationships.</p>
             </div>
           </div>
@@ -239,12 +239,12 @@ const Pili = () => {
           <div className={styles.innerSection}>
             <img src={k}></img>
             <div className={styles.sectionText}>
-              <p style={{ fontSize: "1.25rem", margin: "0"}}>Create Chatrooms</p>
+              <p style={{ fontSize: "1.25rem", margin: "0" }}>Create Chatrooms</p>
               <p>Breaking free from conventional group formation, Pili&apos;s chatroom feature groups students based on classes, interests, and preferences. This not only fosters diverse study groups but eliminates the hassle of offline group creation.</p>
             </div>
           </div>
 
-          <div  style={{ marginBottom: "0" }} className={styles.innerSection}>
+          <div style={{ marginBottom: "0" }} className={styles.innerSection}>
             <div style={{ paddingLeft: "8rem" }} className={styles.sectionText}>
               <p style={{ fontSize: "1.25rem", margin: "0" }}>Foster Connections</p>
               <p>Shared interests and courses bridge gaps, igniting conversations and eradicating initial barriers. By doing so, it fosters diverse bonds, collaboration beyond the classroom, enhances a sense of belonging, and reduces feelings of isolation in STEM education.</p>
@@ -264,7 +264,48 @@ const Pili = () => {
         </div>
       </div>
 
-      <div className={styles.section14}></div>
+      <div className={styles.section14}>
+        <h3>DOES IT WORK?</h3>
+        <p className={styles.subheading}>Usability Testing</p>
+        <p>After developing our prototype, we engaged 5 target group interviewees in usability testing, which included 3 tasks (account creation, group chat matching, connection-making), followed by post-test interviews to collect emotional experiences and project feedback.</p>
+        <img src={o}></img>
+      </div>
+
+      <div className={styles.section15}>
+        <p style={{ fontSize: "1.5rem", fontWeight: "400", fontStyle: "italic", margin: "0" }}>Potential Feature Set</p>
+        <ul style={{ listStyleType: "none" }}>
+          <li><mark>1. Avatar Integration</mark>
+            <p>We aim to explore the integration of avatars into our application, which could help reduce discrimination based solely on appearance and enhance inclusivity.</p>
+          </li>
+          <li><mark>2. Enhanced Group Chat Organization</mark>
+            <p>We plan to implement dividers within the course group chat, such as categories for General, Homework, Questions, and Lectures. This would provide a more organized and efficient way for students to interact.</p>
+          </li>
+          <li><mark>3. Support for Minorities</mark>
+            <p>We intend to provide better support for minorities by considering initiatives like offering scholarship opportunities based on their demographic backgrounds, contributing to increased inclusivity.</p>
+          </li>
+          <li><mark>4. Public Chatroom Functionality</mark>
+            <p>We are interested in exploring the flow of creating and setting up public chatrooms, enabling broader discussions and interactions within the platform.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div className={styles.section16}>
+        <h3>LOOKING BACK</h3>
+        <p className={styles.subheading}>Reflection</p>
+        <ul style={{ listStyleType: "none" }}>
+          <li><mark>1. Broadening the Scope</mark>
+            <p>Initially envisioning a centralized STEM-oriented solution, our interviews with students revealed the diverse composition of STEM courses, prompting us to broaden our project&apos;s scope for a wider audience. Given more funding, I would have conducted larger-scale studies including students from various majors in STEM courses.</p>
+          </li>
+          <li><mark>2. What I Overlooked</mark>
+            <p>I would have spent more time enhancing the user interface design to improve the overall user experience.</p>
+          </li>
+          <li><mark>3. Workload Imbalance</mark>
+            <p>The team faced a significant challenge due to uneven work distribution caused by one team member&apos;s limited involvement, requiring the rest of the team to take on extra responsibilities.</p>
+          </li>
+        </ul>
+        <p>Various implicit and explicit biases have been preventing underrepresented groups from achieving academic achievement and keeping them out of the STEM workforce. By properly addressing this problem, the overall STEM academic field and industry will become more connected and inclusive, and this result may also be expanded to benefit future students and practitioners in STEM fields.</p>
+      </div>
+
     </div>
   )
 }

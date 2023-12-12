@@ -59,7 +59,7 @@
   letter-spacing: .05rem;
 }
 
-mark {
+.section2 mark {
   display: inline-block;
   line-height: 1.1;
   padding: 0 .5rem;
@@ -371,7 +371,7 @@ hr {
 .section13 {
   display: flex;
   flex-direction: column;
-  padding: 0 10rem;
+  padding: 2rem 10rem;
 }
 
 .section13 h5 {
@@ -403,4 +403,116 @@ hr {
   margin-top: 0.5rem;
   margin-bottom: 4rem;
   width: 31%;
+}
+
+/* -------------------------- */
+
+.section14 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 12rem;
+}
+
+.section14 h3 {
+  color: #757575;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.section14 .subheading {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.section14 p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0;
+  line-height: 2;
+}
+
+.section14 img {
+  display: block;
+  align-self: center;
+  width: 90%;
+  height: auto;
+  margin: 4rem 0;
+}
+
+/* -------------------------- */
+
+.section15 {
+  padding: 2rem 12rem 4rem 12rem;
+}
+
+.section15 ul {
+  padding: 0;
+  margin: 0;
+}
+
+.section15 li {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2;
+  margin-bottom: .5rem;
+}
+
+.section15 mark {
+  display: inline-block;
+  background: #F8ECCF;
+  padding: 0.25rem 0.5rem;
+}
+
+.section15 p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2;
+  margin: 0;
+}
+
+/* -------------------------- */
+
+.section16 {
+  padding: 2rem 12rem;
+  margin-bottom: 20rem;
+}
+
+.section16 h3 {
+  color: #757575;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.section16 .subheading {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.section16 ul {
+  padding: 0;
+  margin: 0 0 4rem 0;
+}
+
+.section16 li {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2;
+  margin-bottom: .5rem;
+}
+
+.section16 mark {
+  display: inline-block;
+  background: #F8ECCF;
+  padding: 0.25rem 0.5rem;
+}
+
+.section16 p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2;
+  margin: 0;
 }
