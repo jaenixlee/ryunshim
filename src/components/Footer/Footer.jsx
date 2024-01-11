@@ -50,7 +50,7 @@ const Footer = () => {
             <NavLink to="/" className={({ isActive }) => (isActive ? styles.active : null)}>Work</NavLink>
             <NavLink to="/about" className={({ isActive }) => (isActive ? styles.active : null)}>About</NavLink>
             <NavLink to="/art" className={({ isActive }) => (isActive ? styles.active : null)}>Art</NavLink>
-            <NavLink to="/resume" className={({ isActive }) => (isActive ? styles.active : null)}>Resume/CV</NavLink>
+            <NavLink to="/resume" className={({ isActive }) => (isActive ? styles.active : null)}>Resume</NavLink>
           </nav>
           <p className={styles.copyright}>© 2023 Ryun Shim</p>
         </div>
